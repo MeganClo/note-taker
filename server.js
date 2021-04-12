@@ -8,13 +8,13 @@ app.use(express.json());
 // const htmlRoutes = require('./routes/htmlRoutes');
 
 
-const logger = (req, res, next) => {
-    console.log(`${req.protocol}://${req.get("host")}${req.originalUrl}`);
-    next();
-};
+// const logger = (req, res, next) => {
+//     console.log(`${req.protocol}://${req.get("host")}${req.originalUrl}`);
+//     next();
+// };
 
 // init middleware
-app.use(logger);
+// app.use(logger);
 
 
 // sets static folder
