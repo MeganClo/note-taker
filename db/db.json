@@ -1,12 +1,19 @@
-[
+{
+  "notes": [
     {
-        "id": 1, 
-        "title":"Test Title",
-        "text":"Test text"
-    }, 
+      "id": 1,
+      "title": "Test Title",
+      "text": "Test text"
+    },
     {
-        "id": 2,
-        "title":"Another Test",
-        "text":"Testing some more"
+      "id": 2,
+      "title": "Another Test",
+      "text": "Testing some more"
+    },
+    {
+      "id": "ef643621-97b7-420b-baff-020b480ded11",
+      "title": "test 3",
+      "text": "i am hoping this sends a post request!"
     }
-]
+  ]
+}
