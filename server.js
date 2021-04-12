@@ -5,7 +5,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // const apiRoutes = require('./routes/apiRoutes');
-// const htmlRoutes = require('./routes/htmlRoutes');
+const htmlRoutes = require('./routes/htmlRoutes');
 
 
 // const logger = (req, res, next) => {
@@ -24,7 +24,7 @@ app.use("/api", apiRoutes);
 
 // Use apiRoutes
 // app.use('/api', apiRoutes);
-// app.use('/', htmlRoutes);
+app.use('/', htmlRoutes);
 
 
 const PORT = process.env.PORT || 5000;
