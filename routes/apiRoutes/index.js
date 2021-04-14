@@ -5,7 +5,6 @@ const path = require('path');
 let {notes} = require("../../db/db.json");
 console.log(notes);
 
-
 // gets all notes
 router.get('/notes', (req, res) => {
     res.json(notes);
@@ -61,8 +60,5 @@ router.delete('/notes/:id', (req, res) => {
     }
     
 });
-// POST /api/notes should receive a new note to save on the request body, 
-// add it to the db.json file, and then return the new note to the client. 
-
-
+ 
 module.exports = router;
