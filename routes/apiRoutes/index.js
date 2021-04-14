@@ -29,10 +29,11 @@ router.post('/notes', (req, res) => {
         title: req.body.title,
         text: req.body.text
     }
+    // making sure each note includes a title
     if (!newNote.title) {
         return res.status(400).send("Please include a title for your note.");
     }
-
+    // adding the new note to the json file
     notes.push(newNote);
     fs.writeFileSync(
         path.join(__dirname, '../../db/db.json'),
