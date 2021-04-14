@@ -1,12 +1,15 @@
 # Note Taker 
 
 ## Description
-This application can be used to write and save notes so that a user can organize their thoughts and keep track of tasks that need to be completed. A user can delete notes whenever they'd like. 
+This application can be used to write and save notes so that a user can organize their thoughts and keep track of tasks that need to be completed. A user can delete notes whenever they'd like. See the live link [here](https://shielded-meadow-35227.herokuapp.com/)
 
 ## Table of Contents
 * [Installation](#Installation)
 * [Acknowledgments](#Acknowledgments)
 * [Questions](#Questions)
+
+## Photo: 
+![Note Taker ](https://user-images.githubusercontent.com/77699944/114791184-ede7fd80-9d3a-11eb-8ce3-5883f5a3dcc2.jpg)
 
 ## Installation 
 :clipboard:
